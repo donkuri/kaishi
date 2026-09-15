@@ -173,6 +173,10 @@ b{color: #5586cd}
 
 You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
 
+#### Showing furigana on hover/tap
+
+This can be done following [this thread](https://github.com/donkuri/kaishi/issues/154).
+
 ## I don't like having sentences always on!
 
 Some people would prefer not always seeing the sentence in front. This is totally valid as some people end up only memorizing the sentences. The reason is here is to give you context as meaning is always found in context. If you would like, you can modify your front and styling template following [the comment on this issue](https://github.com/donkuri/kaishi/issues/131#issuecomment-3968847411) to blur them. Thank you [Hit2Skill](https://github.com/Hit2Skill) for the idea!
